@@ -30,7 +30,7 @@ def main(args):
         batch_size=cfg.train.batch_size,
         shuffle=True,
         drop_last=True,
-        num_workers=8,
+        num_workers=12,
         pin_memory=True
     )
     valid_ds = TextAudioDataset(
@@ -42,7 +42,7 @@ def main(args):
         valid_ds,
         batch_size=cfg.train.batch_size,
         shuffle=False,
-        num_workers=8,
+        num_workers=12,
         pin_memory=True
     )
 
