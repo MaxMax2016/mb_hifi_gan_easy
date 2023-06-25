@@ -21,7 +21,6 @@ cd scripts
 ```
 
 # Requirements
-if you wanna plot loss, pandas is needed for aggregate csv.
 
 ```sh
 pip install torch torchaudio lightning pandas
