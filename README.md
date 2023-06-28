@@ -41,4 +41,4 @@ Some audio samples are in `asset/sample/`
 | Generator | ![mel](./asset/loss/gen.png) |
 | Feature Matching | ![mel](./asset/loss/fm.png) |
 | Mel | ![mel](./asset/loss/mel.png) |
-| Multi-band STFT | ![mel](./asset/loss/mel.png) |
+| Multi-band STFT | ![mel](./asset/loss/stft.png) |
